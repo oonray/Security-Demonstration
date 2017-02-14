@@ -1,0 +1,38 @@
+{"config":{
+"Eth0": "192.168.15.35",
+"Network": "10.0.0.0/24",
+"Subnet": "255.255.255.0",
+"OldRootPasswd": "jV6XjQDVhGVYsp",
+"NewRootPasswd": "SuperSecretPassword@!NordoffTG2016",
+"Users": ["joe","anderson"],
+"Passwrds": ["Joe@TG2016","Anderson@TG2016"],
+"ApachePath": "/usr/local/apache2/",
+"Dependencies":[
+    "/lib/linux-vdso.so.1",
+    "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+    "/lib/arm-linux-gnueabihf/libselinux.so.1",
+    "/lib/arm-linux-gnueabihf/libacl.so.1",
+    "/lib/arm-linux-gnueabihf/libacl.so.1",
+    "/lib/arm-linux-gnueabihf/libc.so.6",
+    "/lib/ld-linux-armhf.so.3",
+    "/lib/ld-linux-armhf.so.3",
+    "/lib/arm-linux-gnueabihf/libdl.so.2",
+    "/lib/arm-linux-gnueabihf/libattr.so.1",
+    "/lib/arm-linux-gnueabihf/libpthread.so.0",
+    "/lib/linux-vdso.so.1",
+    "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+    "/lib/arm-linux-gnueabihf/libncurses.so.5",
+    "/lib/arm-linux-gnueabihf/libtinfo.so.5",
+    "/lib/arm-linux-gnueabihf/libdl.so.2",
+    "/lib/arm-linux-gnueabihf/libc.so.6",
+    "/lib/ld-linux-armhf.so.3",
+    "/lib/linux-vdso.so.1",
+    "/usr/lib/arm-linux-gnueabihf/libarmmem.so",
+    "/lib/arm-linux-gnueabihf/libc.so.6",
+    "/lib/ld-linux-armhf.so.3",
+    "/lib/arm-linux-gnueabihf/libpcre.so.3"]
+
+    }
+}
+
+

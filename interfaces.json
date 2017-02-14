@@ -1,0 +1,44 @@
+{
+    "intefaces":[
+     {
+        "name":"lo",
+        "auto":"auto lo",
+        "hotplug":"",
+        "inet":"iface lo inet loopback",
+        "address":"",
+        "netmask":"",
+        "gateway":"",
+        "wpa-conf":""
+     },
+     {
+        "name":"eth0",
+        "auto":"auto eth0",
+        "hotplug":"",
+        "iface":"iface eth0 inet static",
+        "address":"address 192.168.15.35",
+        "netmask":"netmask 255.255.255.0",
+        "gateway":"gateway 192.168.15.5",
+        "wpa-conf":""
+     },
+     {
+        "name":"wlan0",
+        "auto":"auto wlan0",
+        "hotplug":"allow-hotplug wlan0",
+        "iface":"iface wlan0 inet manual",
+        "address":"",
+        "netmask":"",
+        "gateway":"",
+        "wpa-conf":"hotplug wlan0 iface wlan0 inet manual"
+     },
+     {
+        "name":"wlan1",
+        "auto":"auto wlan1",
+        "hotplug":"allow-hotplug wlan1",
+        "iface":"iface wlan1 inet manual",
+        "address":"",
+        "netmask":"",
+        "gateway":"",
+        "wpa-conf":"hotplug wlan0 iface wlan0 inet manual"
+     }
+    ]
+}
